@@ -102,7 +102,7 @@ namespace Hatos_Paul_Lab2
             this.Close();
         }
 
-        private void txtQuantity_KeyDown(object sender, KeyEventArgs e)
+        private void txtQuantity_KeyUp(object sender, KeyEventArgs e)
         {
             if (!(e.Key>=Key.D0 && e.Key<=Key.D9))
             {
