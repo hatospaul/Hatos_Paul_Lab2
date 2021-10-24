@@ -104,7 +104,7 @@ namespace Hatos_Paul_Lab2
 
         private void txtQuantity_KeyUp(object sender, KeyEventArgs e)
         {
-            if (!(e.Key>=Key.D0 && e.Key<=Key.D9))
+            if (!(e.Key >= Key.D0 && e.Key <= Key.D9))
             {
                 MessageBox.Show("Numai cifre se pot introduce!", "Input Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
